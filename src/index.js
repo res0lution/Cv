@@ -2,9 +2,8 @@ import React from "react";
 import { render } from "react-dom";
 import { AppContainer } from "react-hot-loader";
 
-import CvContainer from "./components/cv-container";
+import CvContainer from "./components/Cv-container";
 import "./styles/styles.scss";
-import "./images/photo.png";
 
 const renderApp = (Component) => {
   render(
@@ -18,7 +17,7 @@ const renderApp = (Component) => {
 renderApp(CvContainer);
 
 if (module.hot) {
-  module.hot.accept("./components/cv-container", () => {
+  module.hot.accept("./components/Cv-container", () => {
     renderApp(CvContainer);
   });
 }

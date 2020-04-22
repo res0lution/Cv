@@ -1,29 +1,28 @@
 {
   "topbio": {
-    "pic": "",
-    "fullname": "Name",
-    "title": "front-end developer",
+    "fullname": "Yaroslav Plotnickov",
+    "title": "Web developer",
     "links": [
       {
         "name": "LinkedIn",
         "targetBlank": true,
-        "href": "",
-        "val": ""
+        "href": "https://www.linkedin.com/in/yaroslav-plotnickov-352955194/",
+        "val": "linkedin.com/in/yaroslav-plotnickov"
       },
       {
         "name": "GitHub",
         "targetBlank": true,
-        "href": "",
-        "val": ""
+        "href": "https://github.com/Res01uti0n",
+        "val": "github.com/Res01uti0n"
       },
       {
         "name": "Email",
-        "href": "",
-        "val": ""
+        "href": "mailto:plotnickov.jaroslav@yandex.ru",
+        "val": "plotnickov.jaroslav@yandex.ru"
       },
       {
         "name": "Skype",
-        "href": "",
+        "href": "skype:",
         "val": ""
       }
     ]
@@ -49,9 +48,6 @@
       },
       {
         "name": "Git"
-      },
-      {
-        "name": "Linux"
       },
       {
         "name": "Javascript [ES2016]",
