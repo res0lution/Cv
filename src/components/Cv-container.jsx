@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal"
 
 import TopBio from "./Top-bio";
 import GeneralInfo from "./General-info";
@@ -8,11 +9,13 @@ import cvData from "../cv-data.json";
 
 export default function CvContainer() {
   return (
-    <section className="main-container">
-      <TopBio data={cvData.topbio} />
-      <GeneralInfo data={cvData["general-info"]} />
-      <Skills data={cvData.skills} />
-      <WorkExperience data={cvData["work-experience"]} />
-    </section>
+    <Fade duration={3000}>
+      <section className="main-container">
+        <TopBio data={cvData.topbio} />
+        <GeneralInfo data={cvData["general-info"]} />
+        <Skills data={cvData.skills} />
+        <WorkExperience data={cvData["work-experience"]} />
+      </section>
+    </Fade>
   );
 }

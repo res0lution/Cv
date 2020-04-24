@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 export default function Skills({data}) {
   return (
@@ -8,12 +9,14 @@ export default function Skills({data}) {
       <ul className="article-list">
         {data.list.map((skill) => {
           return (
-            <li key={skill.name} className={skill.descr ? "-detailed" : ""}>
-              {skill.name}
-              {skill.descr && (
-                <p dangerouslySetInnerHTML={{ __html: skill.descr }} />
-              )}
-            </li>
+            <Fade bottom>
+              <li key={skill.name} className={skill.descr ? "-detailed" : ""}>
+                {skill.name}
+                {skill.descr && (
+                  <p dangerouslySetInnerHTML={{ __html: skill.descr }} />
+                )}
+              </li>
+            </Fade>
           );
         })}
       </ul>

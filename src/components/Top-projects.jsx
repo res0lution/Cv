@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 export default function TopProjects() {
   return (
@@ -6,9 +7,9 @@ export default function TopProjects() {
       <h4 className="article-title">Work experience:</h4>
 
       <ul className="article-list">
-        <li>rabota.ua (09.2016 — now)</li>
-        <li>Pickoose.com (09.2016 — 11.2016)</li>
-        <li>Lazard Export (12.2015 — 11.2015)</li>
+        <Fade bottom>
+          <li></li>
+        </Fade>
       </ul>
     </article>
   );

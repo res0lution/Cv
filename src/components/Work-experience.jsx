@@ -1,4 +1,5 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const EndOrNowComponent = ({ date }) => {
   return !date ? (
@@ -17,10 +18,12 @@ export default function WorkExperience({ data }) {
 
       <ul className="article-list">
         {data.list.map((w) => (
-          <li key={w.name} className={w.descr ? "-detailed" : ""}>
-            {w.name} ({w.start} — <EndOrNowComponent date={w.end} />)
-            <p dangerouslySetInnerHTML={{ __html: w.descr }} />
-          </li>
+          <Fade bottom>
+            <li key={w.name} className={w.descr ? "-detailed" : ""}>
+              {w.name} ({w.start} — <EndOrNowComponent date={w.end} />)
+              <p dangerouslySetInnerHTML={{ __html: w.descr }} />
+            </li>
+          </Fade>
         ))}
       </ul>
     </article>
