@@ -1,6 +1,6 @@
 import React from "react";
 
-import Photo from "../images/person.jpg";
+import Photo from "../images/me.jpg";
 
 export default function TopBio({ data }) {
   return (

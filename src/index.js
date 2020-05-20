@@ -9,10 +9,9 @@ import "./styles/styles.scss";
 const particlesOptions = {
   particles: {
     number: {
-      value: 30,
+      value: 130,
       density: {
         enable: true,
-        value_area: 800,
       },
     },
   },

@@ -22,8 +22,8 @@
       },
       {
         "name": "Skype",
-        "href": "skype:",
-        "val": ""
+        "href": "skype:plotnickov.jaroslav?add",
+        "val": "Reso1ution"
       }
     ]
   },
@@ -38,6 +38,12 @@
     "blockname": "Skills",
     "list": [
       {
+        "name": "Npm/Yarn"
+      },
+      {
+        "name": "Webpack"
+      },
+      {
         "name": "HTML5"
       },
       {
@@ -50,36 +56,34 @@
         "name": "Git"
       },
       {
-        "name": "Javascript [ES2016]",
-        "descr": "Nowadays I work actively with vanilla ES2016, Knockout, React/Redux. I write a lot of pet-projects on React/Redux. <br /><br /> As many developers I have my own boilerplate for Webpack+Babel+React+Redux. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate' target='_blank'>https://github.com/fnnzzz/fnnzzz-react-redux-boilerplate</a> <br /><br /> For non-SPA apps I use gulp & my setup for him, that had repeatedly rescued me. You can find it by the following link: <br /><a href='https://github.com/fnnzzz/fnnzzz-gulp-config' target='blank'>https://github.com/fnnzzz/fnnzzz-gulp-config</a><br/><br/>Since recent times, I have been developing on Angular 6 for commercial development"
+        "name": "Jquery"
+      },
+      {
+        "name": "Javascript [ES2016+]"
+      },
+      {
+        "name": "React/Redux",
+        "descr": "Nowadays I work actively with vanilla ES2016+, React/Redux. I write a lot of pet-projects on React/Redux."
+      },
+      {
+        "name": "Bootstrap",
+        "descr": "I actively use Bootstrap framework."
       },
       {
         "name": "SASS (CSS preprocessing)",
-        "descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I actively use Bourbon framework that contains a lot of useful mixins simplifying life. As a responsive grid, I often use Neat from Bourbon’s developers.<br/><br/>I recently use css-modules & enjoy life"
+        "descr": "I develop on SASS according to the BEM methodology (it refers only to the names of the classes). Besides that, I use styled components."
       },
       {
-        "name": "Jade/Pug/Mustache/Handlebars",
-        "descr": "Love when HTML code looks cleaner & more readable."
-      },
-      {
-        "name": "CI/CD",
-        "descr": "Worked with docker + k8s, jenkins pipelines, bitbucket pipelines."
-      },
-      {
-        "name": "MySQL",
-        "descr": "I have experience in websites development with individual structure of relational DB. Please find my diploma work by the following link: <a href='http://diplom-feninets.esy.es/index.php/requests' target='_blank'>http://diplom-feninets.esy.es/index.php/requests</a> All the DB is organized via relational connections. You can find the presentation to my diploma work by the following link: <a href='https://fnnzzz.github.io/diploma-presentation/' target='_blank'>https://fnnzzz.github.io/diploma-presentation/</a>"
+        "name": "PostgresSQL",
+        "descr": "I have experience in websites development with individual structure of relational DB."
       },
       {
         "name": "NoSQL",
-        "descr": "I tried to use Elastic/MongoDB for pet-projects"
-      },
-      {
-        "name": "PHP",
-        "descr": "I had experience on websites development on native PHP, using different MVC frameworks (ex. Codelgniter), on WordPress etc."
+        "descr": "I tried to use MongoDB for pet-projects."
       },
       {
         "name": "Python",
-        "descr": "I often write simple scripts in Python. Also, I wrote several websites in Django. You can find one of them by the following link, I did front-end as well as back-end: <a href='http://guerlain.ua/'>http://guerlain.ua/</a>"
+        "descr": "I had experience on websites development on native Python, using Django."
       }
     ]
   },
@@ -88,8 +92,7 @@
     "list": [
       {
         "name": "Freelance",
-        "start": "2014",
-        "end": "2015",
+        "start": "2018",
         "descr": "We had two bags of wordpress, seventy-five pellets of free html5 templates... <br /> Not that we needed all that for the freelance, but once you get locked into a serious web-sites collection, the tendency is to push it as far as you can ©"
       }
     ]
